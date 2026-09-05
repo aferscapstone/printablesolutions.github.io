@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 600" width="100%" height="100%" preserveAspectRatio="none">
+  <defs>
+    <!-- Soft Slate Blue Gradient - Direct Match to image_20.png style -->
+    <linearGradient id="softSlateBlueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d3748" />
+      <stop offset="100%" stop-color="#1a202c" />
+    </linearGradient>
+
+    <!-- Refined Gold Accent Colors -->
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e2bf75"/>
+      <stop offset="100%" stop-color="#b69752"/>
+    </linearGradient>
+
+    <!-- Top Left Line Texture -->
+    <g id="lineGroup" stroke="#94a3b8" stroke-width="1.5" fill="none" opacity="0.6">
+      <path d="M 0,10 C 250,10 400,100 600,200" />
+      <path d="M 0,35 C 230,35 380,120 560,225" />
+      <path d="M 0,60 C 210,60 360,140 520,250" />
+      <path d="M 0,85 C 190,85 340,160 480,275" />
+      <path d="M 0,110 C 170,110 320,180 440,300" />
+    </g>
+
+    <!-- Top Dot Pattern -->
+    <pattern id="dotPatternTop" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="2" fill="#d4af37" opacity="0.8"/>
+    </pattern>
+  </defs>
+
+  <!-- Medium Darker White / Soft Light-Slate Background Base -->
+  <rect width="1440" height="600" fill="#e2e8f0"/>
+
+  <!-- Top-Left Subtle Curved Lines -->
+  <use href="#lineGroup" />
+
+  <!-- Top Center Decorative Dots -->
+  <rect x="750" y="70" width="120" height="50" fill="url(#dotPatternTop)"/>
+
+  <!-- Bottom Left Soft Wave Layer (Tucked Lower) -->
+  <path d="M 0,450 Q 250,420 600,530 T 1440,600 L 0,600 Z" fill="#cbd5e1"/>
+
+  <!-- Bottom Left Thin Gold Ribbon -->
+  <path d="M 0,530 Q 200,520 400,560 T 750,600" fill="none" stroke="url(#goldAccent)" stroke-width="3"/>
+
+  <!-- Main Bottom-Right Gold Accent Border (Lighter Touch) -->
+  <path d="M 450,600 C 850,590 1150,420 1440,200 L 1440,600 Z" fill="#c3a05c"/>
+
+  <!-- Main Bottom-Right Mild Blue Layer (Airy Slate Texture) -->
+  <path d="M 480,600 C 870,595 1170,440 1440,230 L 1440,600 Z" fill="url(#softSlateBlueGradient)"/>
+
+  <!-- Bottom Right Decorative Gold Dots (Glow Effect) -->
+  <g fill="#d4af37" opacity="0.5">
+    <circle cx="1380" cy="520" r="1.5"/>
+    <circle cx="1400" cy="500" r="2"/>
+    <circle cx="1410" cy="540" r="1.5"/>
+    <circle cx="1360" cy="550" r="2.5"/>
+    <circle cx="1420" cy="570" r="2"/>
+    <circle cx="1390" cy="580" r="1.5"/>
+  </g>
+</svg>

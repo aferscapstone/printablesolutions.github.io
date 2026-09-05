@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 600" width="100%" height="100%" preserveAspectRatio="none">
+  <defs>
+    <!-- Mild Slate Blue Gradient -->
+    <linearGradient id="softSlateBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c3748"/>
+      <stop offset="100%" stop-color="#19202c"/>
+    </linearGradient>
+
+    <!-- Richer, Slightly Darker Metallic Gold Gradient -->
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e5cb82"/>
+      <stop offset="50%" stop-color="#be9a42"/>
+      <stop offset="100%" stop-color="#8c6820"/>
+    </linearGradient>
+
+    <!-- Balanced "Dark White" / Soft Light Gray Background -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f1f5f9"/>
+      <stop offset="60%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Balanced Background Fill -->
+  <rect width="1440" height="600" fill="url(#bgGradient)"/>
+
+  <!-- Subtle Faint Diagonal Texture Lines (Right Side) -->
+  <g stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4,4" fill="none" opacity="0.35">
+    <line x1="850" y1="200" x2="1440" y2="500" />
+    <line x1="950" y1="200" x2="1440" y2="450" />
+    <line x1="1050" y1="200" x2="1440" y2="400" />
+  </g>
+
+  <!-- SEAMLESS GOLD ACCENT BORDER (Top-Left) -->
+  <path d="M -5,-5 L 710,-5 C 470,20 235,110 -5,240 Z" fill="url(#goldGradient)"/>
+
+  <!-- SEAMLESS SLATE BLUE OVERLAY (Top-Left) -->
+  <path d="M -5,-5 L 680,-5 C 450,15 220,95 -5,215 Z" fill="url(#softSlateBlue)"/>
+
+  <!-- PARALLEL GOLD ACCENT RIBBON (Top-Left) -->
+  <path d="M 740,-5 C 500,30 255,125 -5,265" stroke="url(#goldGradient)" stroke-width="2.5" fill="none" opacity="0.95"/>
+
+  <!-- SMOOTH BOTTOM WAVE TRANSITION (Seamless matching curve without sudden black block) -->
+  <path d="M 0,520 C 480,590 960,470 1440,530 L 1440,600 L 0,600 Z" fill="#2c3748" opacity="0.25"/>
+
+  <!-- Bottom Flowing Gold Accent Line -->
+  <path d="M 0,505 C 480,575 960,455 1440,515" stroke="url(#goldGradient)" stroke-width="2.5" fill="none"/>
+  <path d="M 0,520 C 480,590 960,470 1440,530" stroke="url(#goldGradient)" stroke-width="1.2" opacity="0.6" fill="none"/>
+</svg>
