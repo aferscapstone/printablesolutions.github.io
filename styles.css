@@ -204,7 +204,7 @@ body
 .hero
 {
 	height: 100vh;	
-	background-image: url("images/background.svg");
+	background-image: url("background.svg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -459,7 +459,7 @@ body
 {
 	margin-top: 0;
 	padding-top: 0;
-	background-image: url("images/about.svg");
+	background-image: url("about.svg");
 	min-height: 90vh;
 	background-size: cover;
 	background-position: center;
@@ -525,7 +525,7 @@ body
 {
 	padding: 120px;
 	min-height: 90vh;
-	background-image: url("images/products.svg");
+	background-image: url("products.svg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -753,7 +753,7 @@ body
  position: relative;
   width: 100%;
   min-height: 850px; /* Gives the section enough space to hold all cards */
-  background-image: url('images/whychooseus.svg'); /* Put your SVG path here */
+  background-image: url('whychooseus.svg'); /* Put your SVG path here */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
