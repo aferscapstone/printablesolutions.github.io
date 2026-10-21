@@ -1,0 +1,814 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Cebu Printable Solutions Corporation</title> 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head> 
+<body> 
+	<button id="scrollTopBtn" onclick="scrollToTop()"> 
+		<i class="fa-solid fa-arrow-up"></i>
+	</button> 
+	
+	<!-- Navigation --> 
+	<header class="navbar"> 
+		<div class="logo-area"> 
+			<img src="images/Logo.png" alt="Cebu Printable Logo" class="logo"> 
+			<img src="images/CompName.png" alt="Printable Solutions" class="company-name"> 
+		</div> 
+		<nav class="nav-links" id="navMenu"> <br> 
+			<a href="#home" class="active" onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); return false;">HOME</a> 
+			<a href="#about" class="nav-link">ABOUT</a> 
+			<a href="#products" class="nav-link">PRODUCTS</a>
+			<a href="#branches" class="nav-link">BRANCHES</a> 
+			<a href="#contact" class="nav-link">CONTACT US</a> 
+			<a href="#faqs" class="nav-link">FAQs</a> 
+			<button class="quote-btn" onclick="scrollToContact()">REQUEST A QUOTE</button> 
+		</nav> 
+		
+		<button class="mobile-toggle" onclick="toggleMenu()">
+    				<span></span>
+    				<span></span>
+    				<span></span>
+		</button>
+	</header>
+
+	 <!-- HOME --> 
+	<section id="home" class="hero">
+  <div class="horizontal-scroll">
+    <div class="scroll-track">
+
+      <!-- Slide 1: Main Hero � UNCHANGED -->
+      <div class="hero-content">
+        <h1>THE TRUSTED NAME FOR RAW AND<br>ADVERTISING MATERIALS</h1>
+        <p>Supplying Quality Materials for Your Printing and Advertising Needs</p>
+        <a href="#products" class="hero-btn">VIEW ALL PRODUCTS</a>
+      </div>
+
+      <!-- Slide 2: What's New -->
+<div class="hero-content showcase-slide">
+  <div class="showcase-card text-card split-layout">
+    <div class="crop-marks"><i class="tl"></i><i class="tr"></i><i class="bl"></i><i class="br"></i></div>
+    
+    <!-- Left Side: Scaled-up 2026 Badge & Main Title -->
+    <div class="text-main">
+      <div class="hero-badge-2026">
+        <span class="badge-year">2026</span>
+        <span class="badge-label">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3L12 3z"></path>
+          </svg>
+          WHAT'S NEW
+        </span>
+      </div>
+      <h2>Our entry into machinery</h2>
+      <p class="lead-text">Expanding beyond materials to power your print shop with production equipment.</p>
+    </div>
+
+    <!-- Right Side: Product/Showroom Photo + Description below -->
+    <div class="text-side stacked">
+      <div class="showcase-media preview-photo">
+        <div class="media-placeholder">Machinery Showcase Photo<span>YOUR PHOTO HERE</span></div>
+      </div>
+      
+      <div class="side-content">
+        <p>We're proud to bring <strong>Audley</strong> to the Philippine market &mdash; industrial-grade reliability backed by our decade of trusted supply.</p>
+        <a href="#machinery" class="stamp-btn">Explore machinery</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+      <!-- Slide 3: Audley Eco-Solvent -->
+      <div class="hero-content showcase-slide">
+        <div class="showcase-card product-card">
+          <div class="crop-marks"><i class="tl"></i><i class="tr"></i><i class="bl"></i><i class="br"></i></div>
+          <div class="showcase-media">
+            <span class="product-tag">Outdoor & Indoor</span>
+            <div class="media-placeholder">Audley Eco-Solvent Printer<span>YOUR PRODUCT PHOTO HERE</span></div>
+          </div>
+          <div class="showcase-details">
+            <span class="brand-subtitle">Audley Large Format</span>
+            <h2>Eco-Solvent Printers</h2>
+            <p>Engineered for vivid, high-durability outdoor banners, vehicle wraps, and fine-art stickers with unmatched colour accuracy and low operating costs.</p>
+            <ul class="spec-list">
+              <li><strong>Speed:</strong> High-output commercial printheads</li>
+              <li><strong>Media:</strong> Flex banner, tarpaulin, vinyl & canvas</li>
+            </ul>
+            <a href="#contact" class="stamp-btn">Inquire now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4: Audley Sublimation & DTF -->
+      <div class="hero-content showcase-slide">
+        <div class="showcase-card product-card">
+          <div class="crop-marks"><i class="tl"></i><i class="tr"></i><i class="bl"></i><i class="br"></i></div>
+          <div class="showcase-media">
+            <span class="product-tag hot">Textile Tech</span>
+            <div class="media-placeholder">Audley DTF Printer<span>YOUR PRODUCT PHOTO HERE</span></div>
+          </div>
+          <div class="showcase-details">
+            <span class="brand-subtitle">Next-Gen Apparel Printing</span>
+            <h2>DTF Systems</h2>
+            <p>Complete direct-to-film transfer and high-speed sublimation setups with inline powder shakers for seamless garment customisation.</p>
+            <ul class="spec-list">
+              <li><strong>Precision:</strong> Fine-line detail with vibrant white ink layering</li>
+              <li><strong>Applications:</strong> Sportswear, T-shirts, fabrics & merch</li>
+            </ul>
+            <a href="#contact" class="stamp-btn">Inquire now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 5: Audley UV Printers -->
+      <div class="hero-content showcase-slide">
+        <div class="showcase-card product-card">
+          <div class="crop-marks"><i class="tl"></i><i class="tr"></i><i class="bl"></i><i class="br"></i></div>
+          <div class="showcase-media">
+            <span class="product-tag gold">Instant Dry</span>
+            <div class="media-placeholder">Audley UV Printer<span>YOUR PRODUCT PHOTO HERE</span></div>
+          </div>
+          <div class="showcase-details">
+            <span class="brand-subtitle">Rigid & Specialty Media</span>
+            <h2>UV Flatbed & Roll-to-Roll</h2>
+            <p>Instant UV LED curing for printing directly onto rigid boards and flexible media. Produce raised tactile textures and spot-gloss effects effortlessly.</p>
+            <ul class="spec-list">
+              <li><strong>Versatility:</strong> Acrylic, foam board, Sintra & glass</li>
+              <li><strong>Feature:</strong> Multi-layer white + colour + varnish</li>
+            </ul>
+            <a href="#contact" class="stamp-btn">Inquire now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 6: UV DTF Printer System -->
+      <div class="hero-content showcase-slide">
+        <div class="showcase-card product-card">
+          <div class="crop-marks"><i class="tl"></i><i class="tr"></i><i class="bl"></i><i class="br"></i></div>
+          <div class="showcase-media">
+            <span class="product-tag gold">New Tech</span>
+            <div class="media-placeholder">UV DTF Printer System<span>YOUR PRODUCT PHOTO HERE</span></div>
+          </div>
+          <div class="showcase-details">
+            <span class="brand-subtitle">Next-Gen Decoration</span>
+            <h2>UV DTF Printer System</h2>
+            <p>Combine UV curing with direct-to-film technology. Print high-gloss, 3D raised transfer stickers for hard, curved, and irregular surfaces with zero heat pressing.</p>
+            <ul class="spec-list">
+              <li><strong>Curing:</strong> Instant UV & cold-peel transfer film</li>
+              <li><strong>Finish:</strong> Varnish & white ink for 3D textured effects</li>
+              <li><strong>Surfaces:</strong> Glass, metal, acrylic, wood & ceramics</li>
+            </ul>
+            <a href="#contact" class="stamp-btn">Inquire now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 7: Inks & DTF Film -->
+      <div class="hero-content showcase-slide">
+        <div class="showcase-card product-card">
+          <div class="crop-marks"><i class="tl"></i><i class="tr"></i><i class="bl"></i><i class="br"></i></div>
+          <div class="showcase-media">
+            <span class="product-tag">High Quality</span>
+            <div class="media-placeholder">Premium Inks & DTF Film<span>YOUR PRODUCT PHOTO HERE</span></div>
+          </div>
+          <div class="showcase-details">
+            <span class="brand-subtitle">Premium Consumables</span>
+            <h2>Trusted Inks & DTF Films</h2>
+            <p>Maximise printer uptime with premium-formulation eco-solvent, UV, and DTF inks matched with high-release transfer films for clean peels every time.</p>
+            <ul class="spec-list">
+              <li><strong>Formulation:</strong> Clog-resistant, wide colour gamut inks</li>
+              <li><strong>Stock:</strong> Cold-peel & hot-peel DTF release films</li>
+            </ul>
+            <a href="#contact" class="stamp-btn">Inquire now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+	<div class="chat-button" onclick="toggleChat()"> 
+		<i class="fa-solid fa-comments"></i> 
+	</div> 
+	<div class="chat-box" id="chatBox"> 
+		<div class="chat-header"> 
+			AI Assistant 
+		</div> 
+		<div class="chat-body" id="chatBody">
+			<p>Hello! How can I be of service?</p>
+		</div> 
+		<div class="chat-input"> 
+			<input type="text" id="userInput" placeholder="Type your message . . .">
+			
+			<button onclick="sendMessage()"> 
+				<i class="fa-solid fa-paper-plane"></i>
+			</button> 
+		</div>
+	</div> 
+	
+	<!-- ============================================================
+     ABOUT 
+============================================================= -->
+<section id="about" class="about-showcase-section">
+
+  <div class="about-transition" aria-hidden="true"></div>
+
+  <div class="about-track" id="aboutTrack">
+
+    <!-- Slide 1  -->
+    <div class="hero-content about-slide-plain">
+      <span class="tag-pill">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3L12 3z"></path>
+        </svg>
+        WHAT WE CARRY
+      </span>
+      <h1 class="about-heading">ONE SUPPLIER <br>A COMPLETE PRODUCTION LINE</h1>
+      <p>From the machine that prints to the finish that ships, our range covers what advertising and sign shops depend on daily.</p>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="hero-content showcase-slide">
+      <div class="showcase-card text-card split-layout">
+        <div class="crop-marks"><i class="tl"></i><i class="tr"></i><i class="bl"></i><i class="br"></i></div>
+
+        <div class="text-main">
+          <span class="tag-pill">SINCE 2014</span>
+          <h2>The Trusted Name in<br>Advertising Materials</h2>
+          <p class="lead-text">Since 2014, Cebu Printable Solutions Corporation has supplied printers, inks, materials, and equipment to advertising businesses across the Philippines &mdash; guided by a simple standard: reliable stock, consistent quality, every order.</p>
+        </div>
+
+        <div class="text-side stacked">
+          <div class="stats-row">
+            <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Years Supplying</span></div>
+            <div class="stat"><span class="stat-num">3</span><span class="stat-label">Regions Served</span></div>
+            <div class="stat"><span class="stat-num">Direct</span><span class="stat-label">Factory Import</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="hero-content showcase-slide">
+      <div class="showcase-card text-card split-layout">
+        <div class="crop-marks"><i class="tl"></i><i class="tr"></i><i class="bl"></i><i class="br"></i></div>
+
+        <div class="text-main">
+          <span class="tag-pill">OUR STORY</span>
+          <h2>Built to Fix a Supply Problem</h2>
+          <p>Cebu Printable Solutions Corporation was founded in May 2014 in Cebu City, in direct response to a gap in the market. Advertising companies across Cebu were consistently let down by Manila-based suppliers &mdash; undersized tarpaulins and unreliable inventory that left projects stalled.</p>
+          <p>We began by supplying tarpaulins alone. Since then, we have grown into a full line of advertising materials, including Self-Adhesive Vinyl, Acrylic Sheets, and PVC Boards, alongside supporting accessories such as eyelet punchers, eyelets, glue, X-Banner stands, and roll-up banner stands.</p>
+        </div>
+
+        <div class="text-side stacked">
+          <div class="quote-block">
+            <span class="quote-mark">&ldquo;</span>
+            <p>Over the past decade, we have earned recognition as a trusted name in advertising materials across the Philippines &mdash; Luzon, Visayas, and Mindanao. Strict quality control ensures every tarpaulin meets the required weight and thickness, and every product we carry is priced competitively without compromising on quality.</p>
+            <span class="brand-subtitle">Cebu Printable Solutions Corporation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 4 � Milestones (wide product-card style, timeline replaces spec-list) -->
+    <div class="hero-content showcase-slide">
+      <div class="showcase-card product-card wide-card">
+        <div class="crop-marks"><i class="tl"></i><i class="tr"></i><i class="bl"></i><i class="br"></i></div>
+
+        <div class="showcase-details full-width">
+          <span class="brand-subtitle">Milestones</span>
+          <h2>A Decade of Growth, Built on Trust</h2>
+          <p>From a single warehouse in Cebu to a nationwide supplier of materials and machinery, each milestone reflects our commitment to the customers who have grown with us.</p>
+
+          <div class="timeline-row">
+            <div class="timeline-item">
+              <span class="timeline-year">2014</span>
+              <h3>Founded</h3>
+              <p>Established in Cebu City to address a stock and quality gap in the local advertising materials market.</p>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-year">&plus;</span>
+              <h3>Expansion</h3>
+              <p>Broadened our offering into a complete line of advertising materials and accessories under the Printable Solutions brand.</p>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-year">2017</span>
+              <h3>Pasig City</h3>
+              <p>Opened our Pasig City branch, extending the same quality and reliability to customers throughout Luzon.</p>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-year">2022</span>
+              <h3>Avery Dennison</h3>
+              <p>Appointed an official distributor of Avery Dennison, authorized to carry the full Graphics Solutions product line.</p>
+            </div>
+            <div class="timeline-item accent">
+              <span class="timeline-year">2026</span>
+              <h3>New Direction</h3>
+              <p>Concluded our Avery Dennison distributorship in early 2026, opening the door to a new chapter in machinery.</p>
+            </div>
+            <div class="timeline-item accent">
+              <span class="timeline-year">2026</span>
+              <h3>Machinery</h3>
+              <p>Entered the machinery industry, introducing the Audley brand to the Philippines as our first machinery line.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 5 � Let's Supply Your Next Project (single-column card, blue CTA) -->
+    <div class="hero-content showcase-slide">
+      <div class="showcase-card text-card centered-card">
+        <div class="crop-marks"><i class="tl"></i><i class="tr"></i><i class="bl"></i><i class="br"></i></div>
+        <h2>LET'S SUPPLY YOUR NEXT PROJECT</h2>
+        <p class="lead-text">From materials to machinery, speak with our team about what your business needs.</p>
+        <a href="#contact" class="hero-btn">Talk to our team</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Controls -->
+  <button class="about-arrow arrow-prev" id="aboutPrev" aria-label="Previous slide">&#10094;</button>
+  <button class="about-arrow arrow-next" id="aboutNext" aria-label="Next slide">&#10095;</button>
+  <div class="about-dots" id="aboutDots" role="tablist" aria-label="About slides"></div>
+
+</section>
+
+	<!-- PRODUCTS --> 
+	
+	<section id="products" class="products"> 
+  <!-- Header Wrapper -->
+  <div class="products-header">
+    <div class="products-title">
+      <h2>OUR PRODUCTS</h2>
+      <p>Supplying premium raw printing and advertising materials</p>
+    </div>
+    
+    <div class="products-search-container">
+      <div class="search-input-wrapper">
+        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="mainProductSearch" placeholder="Search products..." />
+        <button type="button" id="clearSearchBtn" class="clear-search-btn" style="display: none;">&times;</button>
+      </div>
+    </div>
+  </div>
+
+
+
+		<!-- Screen 1 -->
+		<div id="productsHome" class="products-screen active">
+			<!-- PAGE 1 -->
+			<div class="products-page active" id="page1">
+				<div class="products-grid">
+					<div class="products-card">
+						<img src="images/tarpaulin.jpg" alt="Tarpaulin">
+						<div class="products-info">
+							<h2>Tarpaulin & Flex</h2>
+							<p>High-quality tarpaulin for indoor and outdoor advertising.</p>
+							<a href="tarpaulinindex.html" class="view-button">View Products &rarr;</a>
+						</div>
+					</div>
+			
+					<div class="products-card">
+						<img src="images/xintra.jpg" alt="PVC Boards">
+						<div class="products-info">
+							<h2>PVC Boards / Xintra</h2>
+							<p> Lightweight yet durable PVC boards for signage and display applications.</p>
+							<a href="pvcindex.html" class="view-button">View Products &rarr;</a>
+						</div>
+					</div>
+		
+					<div class="products-card">
+						<img src="images/acrylic.jpg" alt="Acrylic">
+						<div class="products-info">
+							<h2>Acrylic Sheets</h2>
+							<p>Crystal-clear acrylic sheets available in various colors and thicknesses.</p>
+							<a href="acrylicindex.html" class="view-button">View Products &rarr;</a>
+						</div>
+					</div>
+			
+					<div class="products-card">
+						<img src="images/stickers.jpg" alt="Stickers">
+						<div class="products-info">
+							<h2>Stickers</h2>
+							<p>Premium vinyl sticker materials for indoor and outdoor applications.</p>
+							<a href="stickersindex.html" class="view-button">View Products &rarr;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- PAGE 2 -->
+			<div class="products-page" id="page2">
+				<div class="products-grid">
+					<div class="products-card">
+						<img src="images/photopaper.jpg" alt="PhotoPaper">
+						<div class="products-info">
+							<h2>Photo Papers</h2>
+							<p>Premium glossy and matte photo papers for vibrant, high-resolution photo printing.</p>
+							<a href="ppindex.html" class="view-button">View Products &rarr;</a>
+						</div>
+					</div>
+			
+					<div class="products-card">
+						<img src="images/subli.jpg" alt="Sublimation">
+						<div class="products-info">
+							<h2>Sublimation Papers</h2>
+							<p>High-performance sublimation papers designed for sharp image transfer and vivid colors.</p>
+							<a href="subliindex.html" class="view-button">View Products &rarr;</a>
+						</div>
+					</div>
+		
+					<div class="products-card">
+						<img src="images/accessories.jpg" alt="Accessories">
+						<div class="products-info">
+							<h2>Accessories & Banners</h2>
+							<p>Complete signage accessories including eyelets, X-banners, Roll-up banners, punch tools and other supplies</p>
+							<a href="acceindex.html" class="view-button">View Products &rarr;</a>
+						</div>
+					</div>
+			
+					<div class="products-card">
+						<img src="images/others.jpg" alt="Others">
+						<div class="products-info">
+							<h2>Avery Dennison Products</h2>
+							<p>Avery Dennison self-adhesive vinyls trusted for professional signage, branding, and graphic applications.</p>
+							<a href="othersindex.html" class="view-button">View Products &rarr;</a>
+						</div>
+					</div>
+				</div>
+		
+			</div>
+			
+			<!-- PAGE -->
+			<div class="products-pagination">
+				<a href="#" id="prevBtn" class="disabled">&#10094;</a>
+				<span id="pageNumber">Page 1 of 2</span>
+				<a href="#" id="nextBtn">&#10095;</a>
+			</div>
+		</div>	
+	</section> 
+	<section class="why-choose-us">
+  	<!-- Section Header -->
+  		<div class="section-header">
+    			<span class="tagline">YOUR TRUSTED PRINTING PARTNER</span>
+   				<h2>WHY CHOOSE US</h2>
+    			<div class="header-divider">
+      				<span class="diamond-center"></span>
+    			</div>
+ 		</div>
+
+  		<!-- Feature Cards Grid -->
+  		<div class="cards-container">
+    
+   		<!-- Card 1 -->
+    		<div class="feature-card">
+      			<div class="icon-diamond">
+        			<!-- Star Icon -->
+        			<svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+          				<path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+        			</svg>
+      			</div>
+      			<h3>Unmatched Quality,<br> Reliable Supply</h3>
+      			<p>We source only premium-grade acrylics, tarpaulins, and vinyl sheets built to withstand harsh outdoor conditions.</p>
+     			<div class="card-stat">
+        			<span class="stat-number">100%</span>
+        			<span class="stat-label">INSPECTION GUARANTEE</span>
+     			 </div>
+   		    </div>
+   		    
+    		<!-- Card 2 (Featured / Popular) -->
+    		<div class="feature-card featured">
+      			<div class="popular-badge">MOST POPULAR</div>
+      				<div class="icon-diamond">
+        				<!-- Lightning Icon -->
+        				<svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+          					<path d="M7 2v11h3v9l7-12h-4l4-8z"/>
+        				</svg>
+      				</div>
+      				<h3>Rapid Delivery</h3>
+      				<p>Streamlined manufacturing and logistics ensure your raw materials arrive on time for every urgent client project.</p>
+      				<div class="card-stat">
+        				<span class="stat-number">24-48 HR</span>
+        				<span class="stat-label">DISPATCH AVAILABLE</span>
+      				</div>
+    			</div>
+
+    			<!-- Card 3 -->
+    			<div class="feature-card">
+      				<div class="icon-diamond">
+       					<!-- Shield Icon -->
+        				<svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+          					<path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/>
+        				</svg>
+      				</div>
+      				<h3>Direct Sourcing</h3>
+      				<p>We import directly from established partner factories, keeping both quality and pricing competitive at every step.</p>
+      				<div class="card-stat">
+        				<span class="stat-number">BEST</span>
+        				<span class="stat-label">MARKET PRICE RATIO</span>
+      				</div>
+    			</div>
+
+  		</div>
+
+  		<!-- Bottom Stats Bar -->
+  		<div class="stats-bar">
+    		<div class="stat-item">
+      			<h4>10+ Years</h4>
+      			<span>INDUSTRY EXPERIENCE</span>
+    		</div>
+    		<div class="stat-item">
+      			<h4>5,000+</h4>
+      			<span>PROJECTS SUPPLIED</span>
+    		</div>
+    		<div class="stat-item">
+      			<h4>99.8%</h4>
+      			<span>SATISFACTION RATE</span>
+    		</div>
+  	</div>
+	</section>
+<section class="branches-section" id="branches">
+  
+  <!-- Section Header -->
+  <div class="section-header">
+    <span class="tagline">GLOBAL REACH & LOCAL PRESENCE</span>
+    <h2>OUR BRANCHES & WAREHOUSES</h2>
+    <div class="header-divider"><span class="diamond-center"></span></div>
+  </div>
+
+  <!-- Branches Grid -->
+  <div class="branches-grid">
+    
+    <!-- Branch 1 -->
+    <div class="branch-card">
+      <div class="branch-badge">CEBU BRANCH</div>
+      <h3>Cebu Printable Solutions Corporation</h3>
+      <p class="branch-address">Unit A, Printable Solutions Arcade, Camino Vicinal St., Umapad, Mandaue City 6014, Philippines</p>
+      <p class="branch-details">Primary hub for raw material cutting, bulk tarpaulin printing, and wholesale logistics.</p>
+	<a href="https://maps.google.com/?cid=15258701468412297270" target="_blank" class="map-btn">View on Map</a>
+      <div class="branch-meta">
+        <span>Tel: (32) 520-3688, (32) 238-8535, (32) 328-0085, (32) 421-2448<br>Phone: +63 9173227223, +63 9256277223</span>
+        <span class="status open">&nbsp;&nbsp;&nbsp;Open Mon-Sat<br>8:30 am - 5:30 pm</span>
+      </div>
+    </div>
+
+    <!-- Branch 2 -->
+    <div class="branch-card">
+      <div class="branch-badge">PASIG BRANCH</div>
+      <h3>Printable Solutions Corporation</h3>
+      <p class="branch-address">Unit 4, 70 C. Raymundo Avenue, Rosario, Pasig City 1609, Philippines</p>
+      <p class="branch-details">Equipped for quick client pickups, acrylic sheet viewings, and vinyl sample consultations.</p>
+      <a href="https://maps.google.com/?cid=1245285341799168616" target="_blank" class="map-btn">View on Map</a>
+	<div class="branch-meta">
+        <span>Tel: (032) 555-0148<br>Phone: +63 9171558323, +63 9175087223, +63 9171857223<br></span>
+        <span class="status open">&nbsp;&nbsp;&nbsp;Open Mon-Sat<br>8:30 am - 5:30 pm</span>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+	<section class="testimonials-contact-section" id="contact">
+  
+  <!-- Section Header -->
+  <div class="section-header">
+    <span class="tagline">CONNECT & FEEDBACK</span>
+    <h2>WHAT OUR CLIENTS SAY & GET IN TOUCH</h2>
+    <div class="header-divider"><span class="diamond-center"></span></div>
+  </div>
+
+  <!-- Two Column Layout Container -->
+  <div class="content-grid">
+    
+    <!-- LEFT COLUMN: Auto-Scrolling Testimonials -->
+    <div class="testimonials-column">
+      <h3>Client Testimonials</h3>
+      
+      <!-- Auto-Scrolling Viewport Wrapper -->
+      <div class="scrolling-testimonials-wrapper">
+        <div class="scrolling-track">
+          
+          <!-- Testimonial Item 1 -->
+          <div class="testimonial-card">
+            <p class="quote">"Pleased !!!"</p>
+            <span class="client-name">� OwnerZ, ClinttKamms Owner</span>
+          </div>
+
+          <!-- Testimonial Item 2 -->
+          <div class="testimonial-card">
+            <p class="quote">"Thanks."</p>
+            <span class="client-name">� OwnerY, Print Ads Manager</span>
+          </div>
+
+          <!-- Testimonial Item 3 -->
+          <div class="testimonial-card">
+            <p class="quote">"zxcxczczxcxz"</p>
+            <span class="client-name">- OwnerX, AEP Signage Lead</span>
+          </div>
+
+          <!-- Duplicate items to create a smooth infinite loop effect -->
+          <div class="testimonial-card">
+            <p class="quote">"ytyyyyyyyyy"</p>
+            <span class="client-name">- OwnerV., PJ Advertising Owner</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+   <!-- RIGHT COLUMN: Contact Us Form -->
+    <div class="contact-column">
+      <h3>Contact Us</h3>
+      
+      <!-- ADDED id, onsubmit, and name attributes below -->
+      <form id="contact-form" class="contact-form" onsubmit="sendEmail(event)">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Full Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Your Email Address" required>
+        </div>
+        <div class="form-group">
+          <input type="text" name="title" id="subjectInput" placeholder="Subject / Project Inquiry">
+        </div>
+        <div class="form-group">
+          <textarea name="message" rows="4" placeholder="Write your message here..." required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Get In Touch</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+<!-- FAQS SECTION -->
+    <section class="faqs-section" id="faqs">
+        <!-- Section Header -->
+        <div class="section-header">
+            <span class="tagline">GOT QUESTIONS? WE'VE GOT ANSWERS</span>
+            <h2>FREQUENTLY ASKED QUESTIONS</h2>
+            <div class="header-divider"><span class="diamond-center"></span></div>
+        </div>
+
+        <!-- FAQs Container -->
+        <div class="faqs-container">
+            <div class="faq-item">
+                <h3>Do you offer wholesale or bulk discounts?</h3>
+                <p>Yes! We specialize in direct wholesale pricing for printing businesses, sign makers, and corporate clients. Contact our sales team or request a quote for bulk orders.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Where are your physical branches located?</h3>
+                <p>Our main hub is in Mandaue City, Cebu, and we also have a branch in Pasig City, Metro Manila for Luzon-based clients and quick pickups.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>What types of raw materials do you supply?</h3>
+                <p>We supply a wide range of advertising and printing materials, including Tarpaulin & Flex, PVC Boards (Xintra), Acrylic Sheets, Vinyl Stickers, Photo Papers, Sublimation Papers, and Avery Dennison products.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How fast is order processing and delivery?</h3>
+                <p>For standard stock items, we offer rapid dispatch (typically within 24-48 hours). Delivery times may vary depending on your location and order volume.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>Cebu Printable Solutions Corp.</h3>
+                <p>Your trusted source for raw and advertising materials. Supplying quality products for your printing and signage needs across the Philippines.<br><br>Backed by strategic warehouses in Cebu and Pasig, we ensure seamless nationwide distribution, fast dispatch times, and dependable product availability so your projects never miss a deadline.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#branches">Branches</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <p><strong>Cebu Hub:</strong> Camino Vicinal St., Umapad, Mandaue City</p>
+                <p><strong>Pasig Hub:</strong> 70 C. Raymundo Ave, Rosario, Pasig City</p>
+                <p><strong>Email:</strong> <a href="mailto:sales@printablesolutions.com.ph?subject=Inquiry%20from%20Website" class="footer-email">sales@printablesolutions.com.ph</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Cebu Printable Solutions Corporation. All Rights Reserved.</p>
+		<div class="footer-socials">
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/cpsc.jam" target="_blank" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <!-- Viber (Using phone link or generic icon) -->
+                <a href="viber://chat?number=%2B639256277223" target="_blank" aria-label="Viber">
+                    <i class="fa-brands fa-viber"></i>
+                </a>
+                <!-- Optional: Messenger or Instagram -->
+                <a href="https://www.facebook.com/messages1" target="_blank" aria-label="Messenger">
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                </a>
+		<a href="https://business.facebook.com" target="_blank" aria-label="Meta Business Suite">
+                    <i class="fa-solid fa-briefcase"></i>
+                </a>
+            </div>
+        </div>
+    </footer>		
+   <!-- Load EmailJS SDK -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+    (function() {
+        emailjs.init("ZDYpOn2HxttwHWUvH");
+    })();
+
+    function sendEmail(event) {
+        event.preventDefault();
+
+
+        emailjs.sendForm('service_4izgoaa', 'template_qnkcxu6', '#contact-form')
+      .then(function() {
+          alert('Message sent successfully!');
+          document.getElementById('contact-form').reset();
+      }, function(error) {
+          alert('Failed to send: ' + JSON.stringify(error));
+      });
+    }
+</script>
+<script>
+(function () {
+  const track = document.getElementById("aboutTrack");
+  const slides = Array.from(track.children);
+  const dotsWrap = document.getElementById("aboutDots");
+  const prevBtn = document.getElementById("aboutPrev");
+  const nextBtn = document.getElementById("aboutNext");
+  let index = 0;
+
+  slides.forEach((_, i) => {
+    const dot = document.createElement("button");
+    dot.className = "dot" + (i === 0 ? " active" : "");
+    dot.addEventListener("click", () => goTo(i));
+    dotsWrap.appendChild(dot);
+  });
+
+  const dots = Array.from(dotsWrap.children);
+
+  function render() {
+    track.style.transform = `translateX(-${index * 100}vw)`;
+    dots.forEach((d, i) => d.classList.toggle("active", i === index));
+  }
+
+  function goTo(i) {
+  index = (i + slides.length) % slides.length;
+  render();
+
+  const activeSlide = slides[index];
+
+  activeSlide.classList.remove("about-slide-animate");
+
+  // Restart the animation every time the slide changes
+  void activeSlide.offsetWidth;
+
+  activeSlide.classList.add("about-slide-animate");
+}
+
+  prevBtn.addEventListener("click", () => goTo(index - 1));
+  nextBtn.addEventListener("click", () => goTo(index + 1));
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowRight") goTo(index + 1);
+    if (e.key === "ArrowLeft") goTo(index - 1);
+  });
+
+  let touchStartX = null;
+  track.addEventListener("touchstart", (e) => { touchStartX = e.touches[0].clientX; }, { passive: true });
+  track.addEventListener("touchend", (e) => {
+    if (touchStartX === null) return;
+    const dx = e.changedTouches[0].clientX - touchStartX;
+    if (Math.abs(dx) > 50) goTo(dx < 0 ? index + 1 : index - 1);
+    touchStartX = null;
+  });
+
+  render();
+})();
+   </script> 
+   
+</html>
+	<script src="script.js"></script> 
+</body>
+</html>

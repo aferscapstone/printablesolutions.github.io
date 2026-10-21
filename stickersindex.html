@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	
+	<title>Stickers | Cebu Printable Solutions</title>
+
+	<link rel="stylesheet" href="stickerscss.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet"	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+
+<body>
+	<button id="scrollTopBtn" onclick="scrollToTop()"> 
+		<i class="fa-solid fa-arrow-up"></i>
+	</button> 
+	
+	<!-- Navigation --> 
+	<header class="navbar"> 
+		<div class="logo-area"> 
+			<img src="images/Logo.png" alt="Cebu Printable Logo" class="logo"> 
+			<img src="images/CompName.png" alt="Printable Solutions" class="company-name"> 
+		</div> 
+		<nav class="nav-links"> <br> 
+			<a href="index.html#home" class="nav-link">HOME</a> 
+			<a href="index.html#about" class="nav-link">ABOUT</a> 
+			<a class="active" href="index.html#products" class="nav-link active">PRODUCTS</a>
+			<a href="index.html#branches" class="nav-link">BRANCHES</a> 
+			<a href="index.html#contact" class="nav-link">CONTACT US</a> 
+			<a href="index.html#faqs" class="nav-link">FAQs</a> 
+		</nav> 
+		<button class="quote-btn">REQUEST A QUOTE</button> 
+	</header>
+	
+	<section class="stickers-page">
+
+    	<!-- BACK BUTTON -->
+    	<a href="#" class="back-products" onclick="history.back(); return false;">
+    	<i class="fa-solid fa-chevron-left"></i>
+    	Back
+		</a>
+
+
+   	<!-- PAGE HEADER -->
+    	<div class="stickers-header">
+
+        	<div>
+            		<h1>STICKERS</h1>
+            		<div class="gold-line"></div>
+        	</div>
+
+        	<div class="product-search">
+            		<input type="text"  id="globalSearch" placeholder="Search products...">
+            		<i class="fa-solid fa-magnifying-glass"></i>
+			<div id="searchResults" class="search-results">
+				</div>
+        	</div>
+
+    	</div>
+
+
+    	<!-- =========================================
+         MAIN PRODUCT AREA
+    	========================================== -->
+
+    	<div class="stickers-layout">
+
+
+        	<!-- =====================================
+             	LEFT SIDE - CATEGORIES
+        	====================================== -->
+
+        	<aside class="stickers-sidebar">
+
+
+            		<!-- 1. LAMINATING FILM -->
+            		<div class="stickers-category active"
+                 		data-product="laminating">
+
+                		<div class="stickers-image">
+                			<img src="images/laminating-film.jpg"
+                         		alt="Laminating Film">
+                		</div>
+
+                		<div class="stickers-category-name">
+                			<h3>Laminating<br>Film</h3>
+                		</div>
+
+			</div>
+
+
+        		<!-- 2. STICKERS / VINYLS -->
+        		<div class="stickers-category"
+                 		data-product="stickers">
+
+                		<div class="stickers-image">
+                    			<img src="images/sticker.jpg"
+                         		alt="Stickers / Vinyls">
+               			</div>
+
+                		<div class="stickers-category-name">
+                    			<h3>Stickers /<br>Vinyls</h3>
+                		</div>
+
+            		</div>
+
+
+            		<!-- 3. FROSTED STICKER -->
+            		<div class="stickers-category"
+                 		data-product="frosted">
+
+                		<div class="stickers-image">
+                    			<img src="images/frosted-sticker.jpg"
+                         		alt="Frosted Sticker">
+                		</div>
+
+                		<div class="stickers-category-name">
+                    			<h3>Frosted<br>Sticker</h3>
+                		</div>
+
+            		</div>
+
+            		<!-- 4. CUT OUT GLOSSY -->
+            		<div class="stickers-category"
+                 		data-product="cutout">
+
+                		<div class="stickers-image">
+                    			<img src="images/cutout-glossy.jpg"
+                         		alt="Cut Out Glossy Sticker">
+                		</div>
+
+                 		<div class="stickers-category-name">
+                    			<h3>Cut Out<br>Glossy</h3>
+                		</div>
+
+            		</div>
+
+
+            		<!-- 5. BLACK BACK STICKER -->
+            		<div class="stickers-category"
+                 		data-product="blackback">
+
+                		<div class="stickers-image">
+                    			<img src="images/black-back-sticker.jpg"
+                         		alt="Black Back Sticker">
+                		</div>
+
+                		<div class="stickers-category-name">
+                    			<h3>Black Back<br>Sticker</h3>
+                		</div>
+            		</div>
+
+
+            		<!-- 6. PP STICKER -->
+            		<div class="stickers-category"
+                 		data-product="pp">
+
+                		<div class="stickers-image">
+                    			<img src="images/pp-sticker.jpg"
+                         		alt="PP Sticker">
+                		</div>
+
+                		<div class="stickers-category-name">
+                    			<h3>PP Sticker</h3>
+                		</div>
+            		</div>
+
+			<!-- 7. OTHER STICKERS -->
+            		<div class="stickers-category"
+                 		data-product="others">
+
+                		<div class="stickers-image">
+                    			<img src="images/others-sticker.jpg"
+                         		alt="Other Sticker">
+                		</div>
+
+                		<div class="stickers-category-name">
+                    			<h3>Other Sticker</h3>
+                		</div>
+            		</div>
+		</aside>
+		
+		<!-- RIGHT SIDE -->
+		<main class="stickers-product-panel">
+			<!-- Product Title/Description -->
+			<div class="stickers-product-heading">
+				<div class="product-icon">
+					<i id="product-icon" class="fa-solid fa-scroll"></i>
+				</div>
+				<div>
+					<h2 id="productTitle">
+						LAMINATING FILM
+					</h2>
+					
+					<div class="heading-line"></div>
+						
+					<p id="productDescription">
+						High-quality laminating film for protecting and enhancing printed materials.
+					</p>
+				</div>
+			</div>
+				<div class="stickers-options" id="productOptions">
+	
+					<!-- LAM FILM -->
+					<div class="stickers-tabs" id="laminatingOptions">
+						<button class="stickers-tab active" data-option="lite">
+						Lite
+						</button>
+						<button class="stickers-tab" data-option="premium">
+						Premium
+						</button>
+					</div>
+		
+					<!-- STICKERS/VINYLS -->
+					<div class="stickers-tabs" id="stickerOptions" style="display: none;">
+						<button class="stickers-tab active" data-option="economy">
+						Economy
+						</button>
+						<button class="stickers-tab" data-option="general">
+						General Purpose
+						</button>
+						<button class="stickers-tab" data-option="bubblefree">
+						Bubble Free
+						</button>
+						<button class="stickers-tab" data-option="transparent">
+						Transparent
+						</button>
+					</div>
+				</div>
+			<!-- FROSTED -->
+			<div class="table-scroll">
+			<div class="stickers-table-container">
+				<table class="stickers-table">
+					<thead>
+						<tr>
+							<th>Description</th>
+							<th>Item No.</th>
+							<th>Color</th>
+							<th>Measurement</th>
+							<th>Status</th>
+						</tr>
+					</thead>
+					<tbody id="productTableBody">
+					</tbody>
+				</table>
+			</div>
+			</div>
+		<!-- =================================
+                 	NOTE
+            	================================== -->
+
+            	<div class="stickers-note">
+
+                	<i class="fa-solid fa-circle-info"></i>
+
+                	<span>
+                    		All sizes are approximate.
+                    		Availability may change without
+                    		prior notice.
+                	</span>
+
+            	</div>
+
+
+
+            	<!-- =================================
+                	PRICING NOTE
+            	================================== -->
+
+            	<div class="pricing-note">
+
+                	<span class="note-line"></span>
+
+                	<p>
+                    		Pricing available upon request.
+                    		Please use the
+                    		<span class="quote-highlight">
+                        	Request a Quote
+                    		</span>
+                    		button.
+                	</p>
+
+                <span class="note-line"></span>
+
+            </div>
+		</main>
+        </main>
+    </div>
+</section>
+	<script src="search.js"></script>
+	<script src="stickersjs.js"></script>				
+	
+</body>
+
+</html>
