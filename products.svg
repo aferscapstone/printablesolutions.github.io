@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 600" width="100%" height="100%" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="50%" stop-color="#F3E5AB"/>
+      <stop offset="100%" stop-color="#AA771C"/>
+    </linearGradient>
+
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1440" height="600" fill="url(#bgGradient)"/>
+
+  <!-- TOP NAVY: Inverted arch shifted higher toward the top edge -->
+  <path d="M -5,-5 L 1445,-5 L 1445,70 Q 720,5 -5,70 Z" fill="#1e293b"/>
+
+  <!-- GOLD RIBBON: Matching higher inverted accent band -->
+  <path d="M -5,70 Q 720,5 1445,70 L 1445,86 Q 720,21 -5,86 Z" fill="url(#goldGradient)" opacity="0.85"/>
+
+  <!-- LOWER SECTION -->
+  <path d="M 0,520 C 480,590 960,470 1440,530 L 1440,600 L 0,600 Z" fill="#2c3748" opacity="0.25"/>
+  <path d="M 0,505 C 480,575 960,455 1440,515" stroke="url(#goldGradient)" stroke-width="2.5" fill="none"/>
+  <path d="M 0,520 C 480,590 960,470 1440,530" stroke="url(#goldGradient)" stroke-width="1.2" opacity="0.6" fill="none"/>
+</svg>
